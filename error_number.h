@@ -1,0 +1,60 @@
+#ifndef ERROR_NUMBER_H
+#define ERROR_NUMBER_H
+
+#include <QString>
+#include <QList>
+
+const QList<QString> ERROR_MSG =
+{
+    "LostConnection",
+    "PrintStartError",
+    "PrintContinueError",
+    "PauseTaskError",
+    "ResumeTaskError",
+    "ResetMachineError",
+    "CancelTaskError",
+    "SaveTaskError",
+    "CancelSavedTaskError",
+    "ModelLoadError",
+    "ModelFileError",
+    "AutoLevelingError",
+    "TakePhotoError",
+    "SendMailError",
+    "MailConfigureError",
+    "UploadFileError",
+    "DeleteFileError",
+    "GetVersionError",
+    "GetMailConfigError",
+    "ChangePasswordError",
+    "GetWifiListError",
+    "ConnectWifiError",
+    "SetAPError",
+    "CheckUpdateError",
+    "DoUpdateError",
+    "SettingEmailError",
+    "EnableEmailError",
+    "GetFileListError",
+    "ChangeLanguageError",
+    "GetHelpError",
+    "CommandError",
+    "CDNGetError",
+    "CDNSetError",
+    "CDNFormatError",
+    "LoginError",
+    "TestEmailError",
+    "StateError",
+    "NoSystemPackageFoundUSB",
+    "WifiPasswordError",
+    "WifiLimitedError",
+    "WifiUnknowError",
+    "DownloadFileError",
+    "StlFileLarge",
+    "GetStateError",
+    "GcodeNotFound",
+    "LoginLock",
+    "ActionError",
+    "Error404",
+    "DeviceError",
+};
+
+#endif // ERROR_NUMBER_H

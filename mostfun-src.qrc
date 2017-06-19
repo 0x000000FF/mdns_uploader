@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file>m.jpg</file>
+        <file alias="logo">m.bmp</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file alias="printer">printer.png</file>
+        <file alias="printer_notready">printer_notready.png</file>
+        <file alias="printer_ready">printer_ready.png</file>
+    </qresource>
+</RCC>
